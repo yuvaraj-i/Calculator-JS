@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+
+    <div class="outer">
+        <div class="layout">
+
+            <p class="display"></p>
+
+            <button class="button-size" onclick="clearAll()">CLR</button>
+            <button class="button-size" onclick="operators(this)">%</button>
+            <button class="button-size" onclick="deleteLastValue()">DEL</button>
+            <button class="button-size" onclick="operators(this)">/</button>
+
+            <button class="button-size" onclick="updateDisplay(this)">9</button>
+            <button class="button-size" onclick="updateDisplay(this)">8</button>
+            <button class="button-size" onclick="updateDisplay(this)">7</button>
+            <button class="button-size" onclick="operators(this)">x</button>
+            
+            <button class="button-size" onclick="updateDisplay(this)">6</button>
+            <button class="button-size" onclick="updateDisplay(this)">5</button>
+            <button class="button-size" onclick="updateDisplay(this)">4</button>
+            <button class="button-size" onclick="operators(this)">-</button>
+
+            <button class="button-size" onclick="updateDisplay(this)">3</button>
+            <button class="button-size" onclick="updateDisplay(this)">2</button>
+            <button class="button-size" onclick="updateDisplay(this)">1</button>
+            <button class="button-size" onclick="operators(this)">+</button>
+
+            <button class="button-size" onclick="updateDisplay(this)">00</button>
+            <button class="button-size" onclick="updateDisplay(this)">0</button>
+            <button class="button-size" onclick="updateDisplay(this)">.</button>
+            <button class="button-size" onclick="perform()">=</button>
+
+        </div>
+    </div>
+    
+</body>
+
+</html>

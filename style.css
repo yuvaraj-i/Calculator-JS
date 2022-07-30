@@ -1,0 +1,38 @@
+*{
+    font-family: sans-serif; 
+    font-size: large; 
+    background-color: cadetblue; 
+    /* #D1E9D2 */
+}
+.outer{
+    padding: 10% 30% 10% 30%;
+}
+
+.outer h1{
+    text-align: center;
+}
+
+.layout{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 0.25em;
+}
+
+.layout p{
+    grid-column: 1 / -1;
+    text-align: right;
+    height: 8vh;
+    background-color: lightgrey;
+}
+
+.layout .display{
+    border: 2px solid black;
+    margin: 0px;
+    padding: 1em 0.75em 1em 0.75em;
+}
+
+.button-size{
+    border: 0px;
+    background-color: lightgrey;
+    padding: 1em;
+}
